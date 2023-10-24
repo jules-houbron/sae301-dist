@@ -23,5 +23,5 @@ jobs:
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         port: 22
         script: |
-          cd /var/www/sharedpoesy-dist
+          cd /var/www/sae301-dist
           git pull origin main
